@@ -38,13 +38,16 @@ Start by uploading the starter file to Google Colab, then using the information 
 6. Use pd.get_dummies() to encode categorical variables.
 
 7. Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the train_test_split function to split the data into training and testing datasets.
+<img width="696" alt="Screenshot 2023-06-30 at 3 55 06 PM" src="https://github.com/margaretkhendre/Nonprofit-Funding-vs-Deep-Learning-Challenge-/assets/121995835/6ee13982-8b79-4475-a2ad-de38c4c809d6">
 
 8. Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.
+<img width="535" alt="Screenshot 2023-06-30 at 3 54 41 PM" src="https://github.com/margaretkhendre/Nonprofit-Funding-vs-Deep-Learning-Challenge-/assets/121995835/1073795f-a157-4f60-9caf-75098c7eac79">
 
 ### Step 2: Compile, Train, and Evaluate the Model
 Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
 
 1. Continue using the file in Google Colab in which you performed the preprocessing steps from Step 1.
+<img width="780" alt="Screenshot 2023-06-30 at 3 55 42 PM" src="https://github.com/margaretkhendre/Nonprofit-Funding-vs-Deep-Learning-Challenge-/assets/121995835/360e988f-d3cc-40fb-a962-aec1f436f1e6">
 
 2. Create a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
 
@@ -61,11 +64,14 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 8. Create a callback that saves the model's weights every five epochs.
 
 9. Evaluate the model using the test data to determine the loss and accuracy.
+<img width="780" alt="Screenshot 2023-06-30 at 3 57 12 PM" src="https://github.com/margaretkhendre/Nonprofit-Funding-vs-Deep-Learning-Challenge-/assets/121995835/2a40304f-9d6d-44ca-a71b-3c4f528eada0">
 
 10. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
 
 ### Step 3: Optimize the Model
 Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
+
+Note: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
 
 Use any or all of the following methods to optimize your model:
 
@@ -84,7 +90,7 @@ Use any or all of the following methods to optimize your model:
 
 3. Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
 
-4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
+4. Design a neural network model, and be sure to adjust for modifications that will optimize the model.
 
 5. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
 
